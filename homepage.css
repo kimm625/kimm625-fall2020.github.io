@@ -1,0 +1,31 @@
+h1 {
+    font-family: 'Comfortaa';
+    font-size: 160px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h2 {
+    font-family: 'Comfortaa';
+    text-align: center;
+    font-size: 16;
+    padding-bottom: 50;
+}
+strong {font-family: 'Comfortaa';
+font-weight: 600;
+font-size: 30;}
+
+p.link {
+    font-family: 'Nunito Sans';
+    font-size: 13px;
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 100px;
+}
+
+p.question {
+    font-family: 'Comfortaa';
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 70px;
+}
