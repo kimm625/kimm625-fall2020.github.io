@@ -1,0 +1,68 @@
+#nametag-box {
+    margin: 20px auto 20px;
+    height: 555px;
+    width: 901px;
+    border: black 16px solid;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    transition: all .5s east-out;
+}
+
+
+h1,
+h2 { font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    line-height: 1.15;
+
+
+}
+
+h1{
+    font-style: bold;
+    font-size: 72px;
+    letter-spacing: -0.005em;
+    font-weight: bold;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.025em;
+
+}
+.vertically-centered {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.vertically-centered-one {
+    position: relative;
+    top: 25%;
+    transform: translateY(-50%);
+}
+.vertically-centered-two {
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+h3,
+h4 {
+    font-family: Helvetica, sans-serif;
+    font-style: bold;
+    margin:0;
+    text-align: center;
+    line-height: 200.66%;
+}
+
+h3{
+    font-size: 24px;
+    letter-spacing: 0.015em;
+}
+
+h4{
+    font-size: 18px;
+    letter-spacing: 0.02em;
+}
