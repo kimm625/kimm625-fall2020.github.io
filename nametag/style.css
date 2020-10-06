@@ -2,11 +2,15 @@
     margin: 20px auto 20px;
     height: 555px;
     width: 901px;
-    border: black 16px solid;
     box-sizing: border-box;
     position: relative;
+    background-color: black;
+}
+
+#nametag-box:hover {
+    background-color: transparent;
+    transition: 2s;
     cursor: pointer;
-    transition: all .5s east-out;
 }
 
 
@@ -47,6 +51,7 @@ h2{
     top: 40%;
     transform: translateY(-50%);
 }
+
 
 h3,
 h4 {
