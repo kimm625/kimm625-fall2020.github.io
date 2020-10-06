@@ -39,12 +39,12 @@ h2{
 }
 .vertically-centered-one {
     position: relative;
-    top: 25%;
+    top: 30%;
     transform: translateY(-50%);
 }
 .vertically-centered-two {
     position: relative;
-    top: 45%;
+    top: 40%;
     transform: translateY(-50%);
 }
 
