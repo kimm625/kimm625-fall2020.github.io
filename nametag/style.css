@@ -1,5 +1,5 @@
 #nametag-box {
-    margin: 20px auto 20px;
+    margin: 80px auto 80px;
     height: 555px;
     width: 901px;
     box-sizing: border-box;
@@ -13,6 +13,40 @@
     cursor: pointer;
 }
 
+#nametag-box-two {
+    margin: 80px auto 80px;
+    height: 555px;
+    width: 901px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+#nametag-box-two:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    animation-name: nmk;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nmk {
+    0% {
+      transform: scale(1);
+    }
+    14% {
+      transform: scale(1.3);
+    }
+    28% {
+      transform: scale(1);
+    }
+    42% {
+      transform: scale(1.3);
+    }
+    70% {
+      transform: scale(1);
+    }
+  }
 
 h1,
 h2 { font-family: Helvetica, sans-serif;
@@ -71,3 +105,4 @@ h4{
     font-size: 18px;
     letter-spacing: 0.02em;
 }
+
