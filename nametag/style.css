@@ -26,27 +26,8 @@
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
-    animation-name: nmk;
-    animation-iteration-count: infinite;
 }
 
-@keyframes nmk {
-    0% {
-      transform: scale(1);
-    }
-    14% {
-      transform: scale(1.3);
-    }
-    28% {
-      transform: scale(1);
-    }
-    42% {
-      transform: scale(1.3);
-    }
-    70% {
-      transform: scale(1);
-    }
-  }
 
 h1,
 h2 { font-family: Helvetica, sans-serif;
