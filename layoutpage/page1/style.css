@@ -125,7 +125,7 @@ h1{
     background-color: #F2F2F2;
 }
 
-ul {
+.top {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -134,10 +134,27 @@ ul {
     margin-right: 281px;
 }
 
-li {
-    background-color: #520505;
+.circle {
+    border: 1px solid #000000;
+    box-sizing: border-box;
     width: 101px;
     height: 96px;
     border-radius: 100%;
     margin-top: 140px;
+}
+
+.other {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 42px;
+    margin-left: 126px;
+    margin-right: 126px;
+}
+
+.rectangle {
+    width: 115px;
+    height: 296px;
+    background: #C4C4C4;
+    margin-top: 53px;
 }
