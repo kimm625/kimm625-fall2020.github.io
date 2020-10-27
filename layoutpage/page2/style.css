@@ -90,7 +90,7 @@ main {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 90px;
+    justify-content: space-evenly;
     position: relative;
     clear: left;
     padding-inline-start: 0px;
@@ -103,10 +103,11 @@ main {
 }
 
 .circle {
+    display: flex;
     list-style: none;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: normal;
+    flex-direction: row;
+    column-gap: 9px;
+    margin-left: 129px;
 }
 
 .sns {
@@ -114,5 +115,55 @@ main {
     height: 52px;
     border-radius: 100%;
     background: #C4C4C4;
-    margin-left: 129px;
+}
+
+@media (max-width: 850px) {
+    .top {
+        display: none;
+    }
+
+    .kissin {
+        width: 50%;
+    }
+
+    #yellow {
+        width: 50%;
+        height: max-content;
+    }
+
+    .image-text {
+        width: 400px;
+        float: left;
+    }
+
+    .texts {
+        display: block;
+        width: 170;
+    }
+    
+}
+
+@media (max-width: 710px) {
+    .name {
+        width: 70%;
+    }
+
+    .image {
+        width: 200px;
+        height: 200px;
+    }
+    .image-text {
+        width: 230px;
+    }
+    .texts {
+        width: 130;
+    }
+    .circle {
+        margin-left: 120px;
+    }
+
+    .sns {
+        width: 30px;
+        height: 30px;
+    }
 }
