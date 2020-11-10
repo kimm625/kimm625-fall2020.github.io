@@ -29,7 +29,6 @@ body {
 
 #clickEffect::after {
     content: "MERRY CHRISTMAS";
-    image: https://i.imgflip.com/3kh3d6.jpg;
     display: block;
     color: red;
     font-family: 'Playfair Display', serif;
