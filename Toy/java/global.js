@@ -3,6 +3,16 @@ window.addEventListener("keydown", function() {
 });
  
 
+var a=40,b=8,c=13,o="<div style='font-family:monospace;text-align:center;color:#094'>",
+w=1,x=0,y="|#|<br>";for(i=1;i<a;i++){
+    for(j=0;j<w;j++){
+        x%c==0?o+="<span style='color:#D00'>O</span>":o+="+";x++;
+    }i%b==0?w-=4:w+=2;o+="<br>";}
+    
+document.write(o+"<span style='color:#640'>"+y+y+y+"</span></div>");
+
+
+
 function clickPosition(e) {
   const target = document.getElementById("clickEffect"),
     a = 40; 
