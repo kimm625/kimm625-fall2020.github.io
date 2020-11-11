@@ -64,7 +64,7 @@ function clickPosition(e) {
 function removeEffect() {
   removeTimeOut = setTimeout(function () {
     document.getElementById("clickEffect").classList.remove("effect");
-  }, 500); 
+  }, 900); 
 }
  
 document.addEventListener("mousedown", clickPosition)
