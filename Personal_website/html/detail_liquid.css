@@ -1,0 +1,99 @@
+html{
+    /* nmk_italic-01 1 */
+
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    background: url(file:///Users/michellek/Desktop/PARSONS/Interaction/github/kimm625.gitbub.io/Personal_website/nmk_italic_2-02.png) ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.name {
+    height: 24px;
+    margin-left: 50px;
+    margin-top: 32px;
+    border-radius: nullpx;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    float: left;
+    position: fixed;
+   
+}
+
+a:link { color: black; text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+
+.wrap {
+    margin: 0 auto;
+}
+
+article {
+    margin-top: 200px;
+    position: absolute;
+    display: block;
+    height: 321px;
+    width: 100%;
+}
+
+.title {
+    margin: 0;
+    padding:0;
+    position: relative;
+    float: left;
+    width: 255px;
+    margin-left: 50px;
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.discription {
+    margin: 0;
+    padding:0;
+    float: right;
+    margin-right: 50px;
+    width: 670px;
+    height: 321px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.container {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: absolute;
+    top: 300;
+}
+.box_1 {
+    width: auto;
+    display : block;
+    margin : auto;
+}
+
+img {
+    float: left;
+    display : block;
+    margin : auto;
+}
+video {
+    float: right;
+    display : block;
+    margin : auto;
+}
