@@ -31,44 +31,15 @@ body{
     float: left;
 }
 
-.contact{
+.intro {
+    height: 242px;
+    width: 592px;
+    border-radius: nullpx;
     float: right;
     margin-top: 32px;
     margin-right: 50px;
-    border-radius: nullpx;
+    font-family: 'Heebo', sans-serif;
     font-size: 18px;
-
-}
-
-.menu {
-    clear: both;
-    margin-left: 180px;
-    position: relative;
-    width: 100%;
-    height: 24px;
-    top: 460;
-    float: left;
-    font-size: 13px;
-    
-}
-
-.item {
-    float: left;
-    margin-right: 100px;
-    font-weight: 400;
-    align-items: center;
-}
-
-@media only screen and (max-width:768px){
- /* smart phone*/
-    .menu {
-        margin-left: 50px;
-        float: none;
-        top: 270;
-    }
-    
-    .item {
-        float: none;
-        margin-bottom: 20px;
-    }
+    line-height: 31px;
+    font-weight: 300;
 }
