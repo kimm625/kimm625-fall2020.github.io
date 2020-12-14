@@ -13,7 +13,9 @@ html{
     background-size: cover;
     background-attachment: fixed;
 }
-
+body {
+    width: 100%;
+}
 
 .name {
     height: 24px;
@@ -80,16 +82,36 @@ article {
     display: block;
     position: absolute;
     top: 300;
+    width: 100%
 }
 .box_1 {
     width: auto;
 }
 
-img {
-    float: left;
-    padding: 70;
+.box_1 img {
+    display: block;
+    margin: 0 auto;
+    padding: 50;
 }
 video {
-    float: right;
-    padding: 70;
+    display: block;
+    margin: 0 auto;
+    padding: 50;
+}
+
+.center_image {
+    clear: both;
+    width: 900px;
+    height: 900px;
+    margin:0 auto;
+    margin-top: 70;
+    
+}
+
+.center_image img {
+    display: block;
+    top:0; 
+    left: 0;
+    max-width: 100%;
+    margin: 0 auto;
 }
