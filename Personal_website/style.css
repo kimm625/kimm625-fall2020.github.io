@@ -49,11 +49,10 @@ body{
     top: 460;
     font-size: 13px;
     text-align: center;
-    
 }
 
 .item {
-    margin-right: 100px;
+    padding-top:70;
     font-weight: 400;
 }
 

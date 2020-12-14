@@ -83,17 +83,13 @@ article {
 }
 .box_1 {
     width: auto;
-    display : block;
-    margin : auto;
 }
 
 img {
     float: left;
-    display : block;
-    margin : auto;
+    padding: 70;
 }
 video {
     float: right;
-    display : block;
-    margin : auto;
+    padding: 70;
 }
