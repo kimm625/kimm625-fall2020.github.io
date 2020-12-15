@@ -1,4 +1,6 @@
 
+    var text = document.getElementById("text");
+    
     $(window).load(function() {
       $('#liquid').display = "";  
       $('#liquid').fadeIn('slow', function() {
