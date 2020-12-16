@@ -68,12 +68,6 @@ ul {
     text-align: center;
 }
 
-.image_2 {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 42px;
-}
 
 
 a:link { color: black; text-decoration: none;}
