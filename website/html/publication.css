@@ -1,0 +1,92 @@
+html{
+    /* nmk_italic-01 1 */
+
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    background: url(nmk_italic_2-02.png) ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.name {
+    height: 24px;
+    width: 64px;
+    margin-left: 50px;
+    margin-top: 32px;
+    border-radius: nullpx;
+    font-size: 24px;
+    line-height: 32px;
+    float: left;
+    position: fixed;
+}
+
+.heading {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.title:hover {
+    transform: rotate(720deg);
+    transition: all ease 1s;
+}
+
+#main_image {
+    position: absolute;
+    top: 381px;
+    width: 100%;
+}
+
+#main_image .images {
+    text-align: center;
+    
+}
+
+img {
+    display: inline-block;
+    margin : 0 auto;
+    margin-bottom: 70;
+    width: 1000;
+}
+
+ul {
+    margin:0 auto;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+a:link { color: black; text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+
+
+@media only screen and (max-width:768px){
+    /* smart phone*/
+       .heading {
+           margin-left: 50px;
+           text-align: center;
+           margin-top: 200;
+       }
+
+       img {
+           width: 70%;
+       }
+
+       .image_1, .image_2 {
+           padding: 0;
+       }
+   }

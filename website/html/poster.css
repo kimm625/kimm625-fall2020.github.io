@@ -14,8 +14,6 @@ html{
     background-attachment: fixed;
 }
 
-
-
 body{
     font-family: 'Playfair Display', serif;
     font-weight: 400;
@@ -39,6 +37,11 @@ body{
     height: 120px;
     text-align: center;
     margin-top: 100px;
+}
+
+.title:hover {
+    transform: rotate(720deg);
+    transition: all ease 1s;
 }
 
 #main_image {
@@ -66,13 +69,8 @@ ul {
     text-align: center;
 }
 
-.image_1 {
+.image_1, .image_3 {
     padding-right: 25;
-}
-
-
-.liquid:hover {
-    opacity: 70%;
 }
 
 .image_2 {
