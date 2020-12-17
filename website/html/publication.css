@@ -59,7 +59,7 @@ img {
     display: inline-block;
     margin : 0 auto;
     margin-bottom: 30;
-    width: 1000;
+    max-width: 1000;
 }
 
 ul {
@@ -67,6 +67,12 @@ ul {
     display: inline-block;
     text-align: center;
 }
+
+.sea {
+    clear: both;
+    width: 500px;
+}
+
 
 
 a:link { color: black; text-decoration: none;}

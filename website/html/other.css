@@ -37,6 +37,8 @@ body{
     height: 120px;
     text-align: center;
     margin-top: 100px;
+    display: block;
+    margin: 0 auto;
 }
 
 .title:hover {
