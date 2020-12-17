@@ -16,6 +16,12 @@ html{
 body {
     width: 100%;
 }
+p {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80;
+    font-family: Heebo;
+}
 
 .name {
     height: 24px;
@@ -75,6 +81,21 @@ article {
     line-height: 130%;
 }
 
+.discription2 {
+    margin: 0;
+    padding:0;
+    float: right;
+    margin-right: 50px;
+    width: 670px;
+    height: 150px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+
 .container {
     clear: both;
     margin: 0;
@@ -86,17 +107,17 @@ article {
 }
 .box_1 {
     width: auto;
+    padding-bottom: 50;
 }
 
 .box_1 img {
     display: block;
     margin: 0 auto;
-    padding: 50;
 }
 video {
     display: block;
     margin: 0 auto;
-    padding: 50;
+    
 }
 
 .center_image {
@@ -116,9 +137,22 @@ video {
     margin: 0 auto;
 }
 
-.box_1:hover {
-    cursor: url(file:///Users/michellek/Desktop/cursor_red-01.png);
+.instagram {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    margin-right: 50;
 }
+
+.detail_shot {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    margin-right: 50;
+}
+
 
 @media only screen and (max-width:768px){
     /* smart phone*/
