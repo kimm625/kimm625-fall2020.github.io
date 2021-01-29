@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 50;
+}
+
+h1 {
+    font-family: Momcake, regular;
+    color: white;
+    font-size: 150;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
