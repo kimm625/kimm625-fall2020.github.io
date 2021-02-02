@@ -11,5 +11,10 @@ h1 {
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
+
+a:link {text-decoration: none; color: white;}
+a:visited {text-decoration: none; color: rgb(102, 255, 0);}
+a:active {text-decoration: none; color: white;}
+a:hover {text-decoration: underline; color: rgb(102, 255, 0);}
