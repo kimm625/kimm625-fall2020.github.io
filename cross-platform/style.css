@@ -1,0 +1,22 @@
+html {
+    background-color: #FFD700;
+}
+
+h1 {
+    font-family: Momcake;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 119px;
+    color: #FF0000;
+    width: 966px;
+    height: 91px;
+    margin-left: 150px;
+    margin-top: 70px;
+    position: absolute;
+}   
+
+img {
+    margin-left: 870;
+    margin-top: 420px;
+}
