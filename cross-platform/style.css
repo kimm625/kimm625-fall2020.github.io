@@ -3,16 +3,17 @@ html {
 }
 
 h1 {
-    font-family: Quicksand;
+    font-family: 'Quicksand', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 100px;
+    font-size: 130px;
     line-height: 119px;
     color: #FF0000;
-    width: 966px;
+    width: 1500px;
     height: 91px;
     margin-left: 150px;
     margin-top: 70px;
+    margin-bottom: 70px;
     position: absolute;
 }   
 
