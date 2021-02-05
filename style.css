@@ -5,13 +5,32 @@ body {
 }
 
 h1 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
     color: white;
     font-size: 150;
+    text-align: center;
 }
 
-p {
+p, .name {
     font-family: Helvetica, sans-serif;
+}
+section{
+    width: 55%;
+    float: left;
+    padding: 15px;
+}
+
+.name {
+    width: 25%;
+    float: right;
+    padding: 15px;
+    position: relative;
+}
+
+ul, li {
+    list-style: none;
+    margin-bottom: 20px;
 }
 
 a:link {text-decoration: none; color: white;}
