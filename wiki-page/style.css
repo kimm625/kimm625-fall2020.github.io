@@ -1,0 +1,69 @@
+
+@font-face {    
+    font-family: 'messapia', 'momcake';
+    src: url('../fonts/messapia-regular-webfont.woff') format('woff'),
+         url('../fonts/messapia-regular-webfont.woff2') format('woff2'),
+         url('../fonts/messapia-bold-webfont.woff') format('woff'),
+         url('../fonts/messapia-bold-webfont.woff2') format('woff2'),
+         url('../momcakethin-9y6az-webfont.woff2') format('woff2'),
+         url('../momcakethin-9y6az-webfont.woff') format('woff'),
+         url('../momcakebold-wyona-webfont.woff') format('woff'),
+         url('../momcakebold-wyona-webfont.woff2') format('woff2');
+    font-weight: normal, bold;
+    font-style: normal, bold;
+  }
+
+  html {
+      background-color: black;
+      margin: 50px;
+  }
+
+h2, h3, h4 {
+      font-size-adjust: inherit;
+  }
+
+  h1{
+      font-family: 'messapia-bold', sans-serif;
+      font-weight: bold;
+      font-size: 70px;
+      color: #BCFF66;
+  }
+
+  h2 {
+      font-family: 'messapia', sans-serif;
+      font-weight: normal;
+      font-size: 36px;
+      color: yellow;
+  }
+
+  h3 {
+      font-family: 'momcake', sans-serif;
+      font-weight: normal;
+      font-size: 30px;
+      margin-top: 70px;
+      color: 	#B4E5FF;
+  }
+
+  p, li {
+    font-family: 'Heebo', sans-serif;
+    color: white;
+  }
+
+  p {
+      width: 950px;
+      margin: 10px;
+  }
+
+  ul {
+      list-style: none;
+  }
+
+  #img2 {
+      float: right;
+      margin: 30px;
+  }
+
+  .references {
+      column-count: 2;
+      column-gap: normal;
+  }
