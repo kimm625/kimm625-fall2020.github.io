@@ -35,9 +35,10 @@ h2, p {
     100%{color:red; transform:translate(0,0) scale(0.3,0.3) rotate(0deg);}
 }
 
-@media (max-width:360px) {
+@media (max-width:400px) {
     h1{
         width: 60%;
+        font-size: inherit;
     }
 
     body {
