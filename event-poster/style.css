@@ -17,7 +17,6 @@ h1 {
     font-family: 'Turret Road', cursive;
     font-size: 130;
     animation:box 5s linear infinite alternate running;
-
 }
 
 h2, p {
@@ -31,8 +30,13 @@ h2, p {
     10%{color:#00FFFF;} 
     20%{color:#FF50CF;} 
     30%{color:#C12DFF;} 
-    40%{color:#B2FA5C; transform:translate(150px, 20px) scale(1,1) rotate(180deg);} 
+    40%{color:#B2FA5C; transform:translate(150px, 20px) scale(1,1) rotate(-180deg);} 
     70%{color:#46FFFF; transform:translate(50px,70px) scale(0.7,0.7) rotate(270deg);} 
     100%{color:red; transform:translate(0,0) scale(0.3,0.3) rotate(0deg);}
 }
 
+@media (max-width:360px) {
+    h1{
+        width: 60%;
+    }
+}
