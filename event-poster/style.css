@@ -1,0 +1,38 @@
+html {
+    background-image: url(hubble-telescope-nasa-10.jpg);
+    background-size: cover;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+h1 {
+    flex: 1 200px;
+    margin-top: 70px;
+    color: 	#FFEB46;
+    font-family: 'Turret Road', cursive;
+    font-size: 130;
+    animation:box 5s linear infinite alternate running;
+
+}
+
+h2, p {
+    margin-top: 50px;
+    color: white;
+    font-family: 'Turret Road', cursive;
+}
+
+@keyframes box{
+    0%{color:#FFEB46; transform:translate(0,0) scale(0.3,0.3) rotate(0deg);} 
+    10%{color:#00FFFF;} 
+    20%{color:#FF50CF;} 
+    30%{color:#C12DFF;} 
+    40%{color:#B2FA5C; transform:translate(150px, 20px) scale(1,1) rotate(180deg);} 
+    70%{color:#46FFFF; transform:translate(50px,70px) scale(0.7,0.7) rotate(270deg);} 
+    100%{color:red; transform:translate(0,0) scale(0.3,0.3) rotate(0deg);}
+}
+
