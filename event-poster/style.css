@@ -39,6 +39,7 @@ h2, p {
     h1{
         width: 60%;
         font-size: inherit;
+        flex: 1 1000px;
     }
 
     body {
