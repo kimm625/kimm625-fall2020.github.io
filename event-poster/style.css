@@ -39,4 +39,8 @@ h2, p {
     h1{
         width: 60%;
     }
+
+    body {
+        height: 70%;
+    }
 }
