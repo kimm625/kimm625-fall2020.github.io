@@ -1,5 +1,5 @@
 html {
-    background-color: lightgray;
+    background-color: lightsteelblue;
    
   
 }
@@ -16,7 +16,7 @@ h1 {
     font-family: 'League Script', cursive;
     font-weight: normal;
     font-size: 130px;
-    color:blue;
+    color:white;
     margin-top: 50px;
     margin-left: 33px;
 }
@@ -104,9 +104,9 @@ strong {
     color: white;
 }
 
-.title:hover, strong:hover {
-    text-shadow:0px 2px 3rem blue;
-    transition: all ease 0.5s;
+.title, strong:hover {
+    text-shadow: 1px 3px 2rem blue;
+    transition: all ease 0.8s;
     }
 
 /* SCROLL */
@@ -115,7 +115,7 @@ strong {
 ::-webkit-scrollbar-track { background-color: none;}
 /* 스크롤바의 전체 배경색 */
 ::-webkit-scrollbar-thumb { 
-    background: linear-gradient(to bottom, gray, lightgray); 
+    background: linear-gradient(to bottom, lightgray, lightgray); 
 }
 /* 스크롤바 색 */
 ::-webkit-scrollbar-button { display: none; }
