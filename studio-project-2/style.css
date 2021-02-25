@@ -1,0 +1,61 @@
+@font-face {    
+    font-family: 'momcake';
+    src: url('../momcakethin-9y6az-webfont.woff2') format('woff2'),
+         url('../momcakethin-9y6az-webfont.woff') format('woff'),
+         url('../momcakebold-wyona-webfont.woff') format('woff'),
+         url('../momcakebold-wyona-webfont.woff2') format('woff2');
+    font-weight: normal, bold;
+    font-style: normal, bold;
+  }
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.text {
+    text-align: center;
+    top: 30%;
+    left: 47%;
+    line-height: 3.8;
+    position: fixed;
+    font-family: 'Courier Prime', monospace;
+    font-size: 12px;
+    z-index: 0;
+    
+}
+
+.slide {
+    font-family: 'momcake';
+    font-size: 140px;
+    margin: 0;
+    position: fixed;
+    z-index: -2;
+}
+
+
+
+strong {
+    color: white;
+    background-color: orangered;
+}
+
+a {
+    text-decoration: none;
+}
+
+.underline { 
+    color: tomato;
+        cursor: pointer;
+        transition: background-size 0.8s;
+        background-size: 0% 100%;
+        background-repeat: no-repeat;
+    }
+    @media (min-width: 1000px) {
+    .underline.yellow {
+        background-image: linear-gradient(transparent 60%, #F8CD07 40%);
+      }
+      .underline:hover {
+        background-size: 100% 100%;
+      }

@@ -1,0 +1,90 @@
+@font-face {    
+    font-family: 'momcake';
+    src: url('../momcakethin-9y6az-webfont.woff2') format('woff2'),
+         url('../momcakethin-9y6az-webfont.woff') format('woff'),
+         url('../momcakebold-wyona-webfont.woff') format('woff'),
+         url('../momcakebold-wyona-webfont.woff2') format('woff2');
+    font-weight: normal, bold;
+    font-style: normal, bold;
+  }
+
+html {
+    background-color: lightgray;
+  
+}
+
+.title {
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+h1 {
+    font-family: 'momcake', sans-serif;
+    font-weight: normal;
+    font-size: 130px;
+    color:blue;
+}
+
+p, nav, .button {
+    line-height: 1.2;
+    font-family: 'Courier Prime', monospace;
+    font-size: 12;
+}
+
+
+
+.left {
+    float: left;
+    overflow: scroll;
+    width: 40%;
+    height: 1000%;
+    margin-bottom: 50px;
+}
+
+.right {
+    float: right;
+    position: relative;
+    text-align: right;
+    overflow: scroll;
+    width: 40%;
+    height: 1000%;
+    margin-bottom: 50px;
+}
+
+nav { 
+    position: fixed;
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    left: 40%;
+    top: 50%;
+}
+.nav, .ending {
+    text-decoration: none;
+}
+.nav:visited {
+    color: crimson;
+    text-decoration: none;
+}
+
+.ending:visited {
+    color: black;
+}
+
+.button {
+    text-align: center;
+    margin: 0 auto;
+    top: 990%;
+    position: relative;
+}
+
+.ending:hover{
+    color: blue;
+    font-weight: bolder;
+    font-size: xx-large;
+    transition: all ease 1s;
+
+}
