@@ -3,10 +3,12 @@ html {
     width: 100%;
     height: 100%;
     margin: 0;
+    background-color: lightsteelblue;
 }
 
 .text {
     text-align: center;
+    color: white;
     top: 30%;
     left: 47%;
     line-height: 3.8;
@@ -20,6 +22,7 @@ html {
 .slide {
     font-family: 'League Script', cursive;
     font-size: 140px;
+    color: white;
     margin: 0;
     position: fixed;
     z-index: -2;
@@ -32,7 +35,7 @@ a {
 }
 
 .underline { 
-    color: tomato;
+    color: blue;
         cursor: pointer;
         transition: background-size 0.8s;
         background-size: 0% 100%;
@@ -40,7 +43,7 @@ a {
     }
     @media (min-width: 1000px) {
     .underline.yellow {
-        background-image: linear-gradient(transparent 60%, #F8CD07 40%);
+        background-image: linear-gradient(transparent 60%, white 40%);
       }
       .underline:hover {
         background-size: 100% 100%;
