@@ -18,11 +18,12 @@ html {
 }
 
 .slide {
-    font-family: 'Manjari', sans-serif;
+    font-family: 'League Script', cursive;
     font-size: 140px;
     margin: 0;
     position: fixed;
     z-index: -2;
+    opacity: 60%;
 }
 
 
