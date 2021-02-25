@@ -1,15 +1,6 @@
-@font-face {    
-    font-family: 'momcake';
-    src: url('../momcakethin-9y6az-webfont.woff2') format('woff2'),
-         url('../momcakethin-9y6az-webfont.woff') format('woff'),
-         url('../momcakebold-wyona-webfont.woff') format('woff'),
-         url('../momcakebold-wyona-webfont.woff2') format('woff2');
-    font-weight: normal, bold;
-    font-style: normal, bold;
-  }
-
 html {
     background-color: lightgray;
+   
   
 }
 
@@ -17,17 +8,18 @@ html {
     width: 100%;
     top: 0;
     left: 0;
+    margin-top: 30px;
 }
 
 
 h1 {
-    font-family: 'momcake', sans-serif;
+    font-family: 'Manjari', sans-serif;
     font-weight: normal;
     font-size: 130px;
     color:blue;
 }
 
-p, nav, .button {
+p, .button, .nav {
     line-height: 1.2;
     font-family: 'Courier Prime', monospace;
     font-size: 12;
@@ -37,25 +29,27 @@ p, nav, .button {
 
 .left {
     float: left;
-    overflow: scroll;
-    width: 40%;
-    height: 1000%;
-    margin-bottom: 50px;
+    overflow: scroll visible;
+    border-right: solid black 1px;
 }
 
 .right {
     float: right;
     position: relative;
     text-align: right;
-    overflow: scroll;
+    border-left: solid black 1px;
+}
+
+.left, .right {
+    overflow: scroll visible;
     width: 40%;
-    height: 1000%;
+    height: 300%;
     margin-bottom: 50px;
+    border-bottom: black 1px solid;
 }
 
 nav { 
     position: fixed;
-    color: blue;
     text-decoration: none;
     text-align: center;
     margin: 0 auto;
@@ -66,7 +60,7 @@ nav {
     text-decoration: none;
 }
 .nav:visited {
-    color: crimson;
+    color: tomato;
     text-decoration: none;
 }
 
@@ -77,14 +71,38 @@ nav {
 .button {
     text-align: center;
     margin: 0 auto;
-    top: 990%;
+    top: 300%;
     position: relative;
 }
 
 .ending:hover{
     color: blue;
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: x-large;
     transition: all ease 1s;
 
 }
+
+.nav { 
+    color: tomato;
+        cursor: pointer;
+        transition: background-size 0.8s;
+        background-size: 0% 100%;
+        background-repeat: no-repeat;
+    }
+    @media (min-width: 1000px) {
+    .nav {
+        background-image: linear-gradient(transparent 60%, #F8CD07 40%);
+      }
+      .nav:hover {
+        background-size: 100% 100%;
+      }
+
+strong {
+    color: white;
+}
+
+.title:hover, strong:hover {
+    text-shadow:0px 2px 3rem blue;
+    transition: all ease 0.5s;
+    }
