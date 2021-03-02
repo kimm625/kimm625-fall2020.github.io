@@ -136,6 +136,7 @@ body::-webkit-scrollbar {display:none;}
     }
     .top {
         font-size: 19px;
+        top: 70;
     }
     .title {
         height: 8%;
