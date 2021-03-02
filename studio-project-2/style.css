@@ -48,3 +48,15 @@ a {
       .underline:hover {
         background-size: 100% 100%;
       }
+
+      @media mobile (max-width: 400px) {
+          .slide  {
+              font-size: 500%
+          }
+          .text {
+              font-size: 28px;
+              left: 40.6%;
+              top: 33%
+          }
+
+      }

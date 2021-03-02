@@ -4,6 +4,7 @@ html {
   
 }
 
+
 .title {
     width: 100%;
     top: 0;
@@ -11,14 +12,23 @@ html {
     border-bottom: black 1px solid;
 }
 
+.top {
+    font-family: 'League Script', cursive;
+    font-weight: normal;
+    font-size: 15px;
+    position: fixed;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
 
 h1 {
     font-family: 'League Script', cursive;
     font-weight: normal;
-    font-size: 130px;
+    font-size: 70px;
     color:white;
-    margin-top: 50px;
-    margin-left: 33px;
+    margin: 50px;
+    text-align: center;
 }
 
 p, .button, .nav {
@@ -104,10 +114,6 @@ strong {
     color: white;
 }
 
-.title, strong:hover {
-    text-shadow: 1px 3px 2rem blue;
-    transition: all ease 0.8s;
-    }
 
 /* SCROLL */
 ::-webkit-scrollbar { width: 5px; }

@@ -1,0 +1,24 @@
+html{
+    background-color: black;
+    height: 100%
+}
+
+.animation {
+    width: 100%
+
+}
+
+#circles {
+    animation-name: fadeout;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadeout {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
