@@ -129,7 +129,7 @@ strong {
 
 body::-webkit-scrollbar {display:none;}
 
-@media screen and (max-width: 480px) {
+@media all and (max-width: 480px) {
     .nav {
         left: 15%;
     }
@@ -145,5 +145,4 @@ body::-webkit-scrollbar {display:none;}
     .title {
         height: 8%;
     }
-
 }

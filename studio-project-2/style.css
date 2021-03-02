@@ -48,13 +48,13 @@ a {
       .underline:hover {
         background-size: 100% 100%;
       }
+    }
 
-      @media screen and (max-width: 480px) {
+      @media all and (max-width: 480px) {
           .slide  {
-              font-size: 500%
+              font-size: 900%
           }
           .text {
-              font-size: 28px;
               left: 40.6%;
               top: 33%;
           }
