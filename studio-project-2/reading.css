@@ -145,4 +145,8 @@ body::-webkit-scrollbar {display:none;}
     .title {
         height: 8%;
     }
+    
+    .left, .right {
+        width: 48%;
+    }
 }

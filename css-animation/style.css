@@ -1,16 +1,12 @@
-html{
-    background-color: black;
-    height: 100%
-}
+
 
 .animation {
     width: 100%
 
 }
 
-#circles {
+cls-1 {
     animation-name: fadeout;
-    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 
