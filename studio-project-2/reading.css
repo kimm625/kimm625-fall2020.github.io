@@ -128,3 +128,13 @@ strong {
 ::-webkit-scrollbar-corner {display: none;}
 
 body::-webkit-scrollbar {display:none;}
+
+@media screen and (max-width: 400px) {
+    .nav {
+        left: 37%;
+    }
+    .top {
+        font-size: 35px;
+    }
+
+}
