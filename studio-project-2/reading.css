@@ -54,9 +54,9 @@ p, .button, .nav {
     overflow: scroll visible;
     width: 40%;
     height: 300%;
-    margin-bottom: 50px;
-    border-bottom: black 1px solid;
+    margin-bottom: 55px;
     z-index: -2;
+
 }
 
 nav { 
@@ -83,7 +83,7 @@ nav {
 .button {
     text-align: center;
     margin: 0 auto;
-    top: 300%;
+    top: 293%;
     position: relative;
 }
 
@@ -103,6 +103,16 @@ nav {
 
 strong {
     color: white;
+}
+
+.bottom {
+    position: absolute;
+    top: 320.5%;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    border-bottom: black 1px solid;
+    transform: rotate(180deg);
 }
 
 
