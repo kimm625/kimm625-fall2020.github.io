@@ -148,5 +148,9 @@ body::-webkit-scrollbar {display:none;}
         margin-top: 30px;
         margin: auto;
     }
+
+    .button {
+        margin-bottom: 70px;
+    }
    
 }
