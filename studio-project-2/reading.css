@@ -1,7 +1,5 @@
 html {
     background-color: lightsteelblue;
-   
-  
 }
 
 
@@ -92,7 +90,6 @@ nav {
     font-weight: bolder;
     font-size: x-large;
     transition: all ease 1s;
-
 }
 
 .nav { 
@@ -102,7 +99,7 @@ nav {
     background-repeat: no-repeat;
     }
 
-    @media (min-width: 1000px) {
+    @media (max-width: 1000px) {
     .nav {
         background-image: linear-gradient(transparent 60%, white 40%);
       }
