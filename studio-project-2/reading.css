@@ -129,7 +129,7 @@ strong {
 
 body::-webkit-scrollbar {display:none;}
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
     .nav {
         left: 15%;
     }
