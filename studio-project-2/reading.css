@@ -109,6 +109,7 @@ nav {
       .nav:hover {
         background-size: 100% 100%;
       }
+    }
 
 strong {
     color: white;
@@ -124,7 +125,7 @@ strong {
     background: linear-gradient(to bottom, lightgray, lightgray); 
 }
 /* 스크롤바 색 */
-::-webkit-scrollbar-button { display: none; }
+::-webkit-scrollbar-button { display: none;}
 ::-webkit-scrollbar-corner {display: none;}
 
 body::-webkit-scrollbar {display:none;}
@@ -145,5 +146,4 @@ body::-webkit-scrollbar {display:none;}
     .title {
         height: 8%;
     }
-}
 }
