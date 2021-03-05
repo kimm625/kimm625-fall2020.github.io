@@ -118,12 +118,12 @@ var array1 = ['restaurants','Toc Toc', 'Raku', 'Panell Cafe'];
 var array2 = ['things', 'Travel', 'Party', 'Go for a walk without a mask'];
 var array3 = ['nyc','Greenwich', 'Central Park', 'MOMA'];
 var array4 = ['movies','Life is Beautiful', 'Microhabitat', 'The Matrix'];
-var items = [[array1],[array2]],[array3],[array4]];
+var items = [[array1],[array2],[array3],[array4]];
 console.log(arrays);
 
 /* Part 10 */ 
 // Loop through your array of arrays and log the value of the each item in the array. You should be looping through 4 things, and each value you log should be an array. For example, the first item logged would be an array containing 3 restaurants, the second item would be an array containing 3 animals, etc. //
-console.log ("this is confusing")
+console.log ("this is confusing");
 
 /* Part 11 */
 //Create a nested for loop that loops through the array of your favorite items and logs each individual item. The first loop should log the category of the item, while the nested loop should log each individual item in that category.//
