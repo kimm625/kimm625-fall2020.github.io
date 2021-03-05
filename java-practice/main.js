@@ -1,39 +1,29 @@
-// prints "hi" in the browser's dev tools console
+//part1
 console.log("hi");
 
-/* Part 1 */
-// A string consisting of your name //
 var name = "Michelle";  
 console.log(name);
 
-// Your favorite number as an integer//
 var MyFavNumber = 3;
 console.log(MyFavNumber)
 
-// Your favorite number as a string //
 const num = 3;
 console.log(num.toString())
 
-// A boolean value //
-console.log(null || 2)
+console.log(null || 3)
 
-// An array consisting of each of the letters of your first name //
 console.log('M', 'i', 'c', 'h','e', 'l', 'l', 'e')
             
-// An array consisting of multiple, different data types. Include at least 3 different data types. //
-console.log(7 + 9, 'Ergonomic data', true)
+console.log(8*3, "hello world", true)
 
-// Add two strings togethers. The first string is your first name, and the second string is your last name. //
 var first_name = 'Michelle';
 var last_name = 'Kim';
 console.log(first_name,last_name);
 
-// Add two integers together to equal the number 100. //
 console.log(40 + 60)
 
 
-/* Part 2 */
-// For the array you specified in question 1 (consisting of each of the letters of your first name), log the first item of the array and the last item of the array. When you refer to the last item in the array, try to do it by using the length of the array, rather than manually counting the index of the array.//
+// part 2
 var name = "Michelle"; 
 
 function firstAndLast(array) {
@@ -52,29 +42,25 @@ var display = firstAndLast(name);
 console.log(display);
 
 
-/* Part 3*/
-// Log the number of characters in the string ‘supercalifragilisticexpialidocious’ by using the length property. //
+//part3
 var marypoppins = 'supercalifragilisticexpialidocious';
 console.log(marypoppins.length);
 
 
-/* Part 4*/
-//Log the result of this expression: the length of characters in your first name is equal to the length of characters in your last name. //
+//part4
 var first_name = 'Michelle';
 var last_name = 'Kim';
 console.log(first_name) == console.log(last_name);
 
 
-/* Part 5 */
-// Create a loop that loops through the array of characters in your first name and logs each character. //
-var my_things = ['M', 'C', 'K'];
-my_things.forEach(function(item) {
+//part5
+var my_initial = ['M', 'C', 'K'];
+my_initial.forEach(function(item) {
   console.log(item);
 });
 
 
-/* Part 6 */
-// Create a conditional statement that checks to see if the current time is between 7pm and 9:40pm. //
+//part6
 var time = new Date().getHours();
 if (time > 19) {
     message = 'Just passed 7pm';
@@ -83,8 +69,7 @@ if (time > 19) {
 }
 console.log(time)
 
-/* Part 7 */
-// Create a conditional statement with multiple conditions that checks to see what the current date is, and logs a unique message for each day of the week. //
+//part7
 var date = new Date();
 if ( currentDate.getDay() == 1) {
     console.log('Still Monday');
@@ -107,11 +92,8 @@ if ( currentDate.getDay() == 1) {
   if ( currentDate.getDay() == 7) {
     console.log('YAY Sunday!');
   }
-//
 
-/* Part 8 */
-//Create 4 arrays consisting of the following items. Define variables to store each of the 4 arrays.//
-
+// part8 
   // - Your favorite 3 restaurants : //
 var restaurants = (['Toc Toc', 'Raku', 'Panell Cafe']);
 console.log("restaurants:");
@@ -141,7 +123,7 @@ console.log(arrays);
 
 /* Part 10 */ 
 // Loop through your array of arrays and log the value of the each item in the array. You should be looping through 4 things, and each value you log should be an array. For example, the first item logged would be an array containing 3 restaurants, the second item would be an array containing 3 animals, etc. //
-
+console.log ("this is confusing")
 
 /* Part 11 */
 //Create a nested for loop that loops through the array of your favorite items and logs each individual item. The first loop should log the category of the item, while the nested loop should log each individual item in that category.//
