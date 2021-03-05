@@ -95,19 +95,19 @@ if ( currentDate.getDay() == 1) {
 
 // part8 
   // - Your favorite 3 restaurants : //
-var restaurants = (['Toc Toc', 'Raku', 'Panell Cafe']);
+var restaurants = ['Toc Toc', 'Raku', 'Panell Cafe'];
 console.log("restaurants:");
 
   // - Your favorite 3 things you can’t do during a pandemic : //
-var things = (['Travel', 'Party', 'Go for a walk without a mask']);
+var things = ['Travel', 'Party', 'Go for a walk without a mask'];
 console.log("things");
 
   // - Your favorite 3 places in NYC : //
-var nyc = (['Greenwich', 'Central Park', 'MOMA']);
+var nyc = ['Greenwich', 'Central Park', 'MOMA'];
 console.log("nyc");
 
   // - Your favorite 3 movies : // 
-var movies = (['Life is Beautiful', 'Microhabitat', 'The Matrix']);
+var movies = ['Life is Beautiful', 'Microhabitat', 'The Matrix'];
 console.log("movies");
 
 
