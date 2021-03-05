@@ -1,10 +1,10 @@
 //part1
 console.log("hi");
 
-var name = "Michelle";  
+var name = ["Michelle"];  
 console.log(name);
 
-var MyFavNumber = 3;
+var MyFavNumber = [3];
 console.log(MyFavNumber)
 
 const num = 3;
@@ -16,15 +16,15 @@ console.log('M', 'i', 'c', 'h','e', 'l', 'l', 'e')
             
 console.log(8*3, "hello world", true)
 
-var first_name = 'Michelle';
-var last_name = 'Kim';
+var first_name = ['Michelle'];
+var last_name = ['Kim'];
 console.log(first_name,last_name);
 
 console.log(40 + 60)
 
 
 // part 2
-var name = "Michelle"; 
+var name = ["Michelle"]; 
 
 function firstAndLast(array) {
 
@@ -43,13 +43,13 @@ console.log(display);
 
 
 //part3
-var marypoppins = 'supercalifragilisticexpialidocious';
+var marypoppins = ['supercalifragilisticexpialidocious'];
 console.log(marypoppins.length);
 
 
 //part4
-var first_name = 'Michelle';
-var last_name = 'Kim';
+var first_name = ['Michelle'];
+var last_name = ['Kim'];
 console.log(first_name) == console.log(last_name);
 
 
