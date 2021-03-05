@@ -1,0 +1,40 @@
+header {
+    margin-top: 50px;
+}
+
+#title {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 120px;
+}
+
+.home {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 50;
+}
+
+p, li {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.nav {
+    position: absolute;
+
+    left: 0;
+
+    bottom: 0;
+
+    width: 100%;
+
+	padding: 15px 0;
+}
