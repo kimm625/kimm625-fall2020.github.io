@@ -67,7 +67,7 @@ if (time > 19) {
 } else if (time < 21.40) {
    message = 'Now heading to night';
 }
-console.log(time)
+console.log(time);
 
 //part7
 var date = new Date();
@@ -91,7 +91,7 @@ if ( currentDate.getDay() == 1) {
     }
   if ( currentDate.getDay() == 7) {
     console.log('YAY Sunday!');
-  }
+  };
 
 // part8 
   // - Your favorite 3 restaurants : //
@@ -123,7 +123,7 @@ console.log(arrays);
 
 /* Part 10 */ 
 // Loop through your array of arrays and log the value of the each item in the array. You should be looping through 4 things, and each value you log should be an array. For example, the first item logged would be an array containing 3 restaurants, the second item would be an array containing 3 animals, etc. //
-console.log ("this is confusing");
+console.log("this is confusing");
 
 /* Part 11 */
 //Create a nested for loop that loops through the array of your favorite items and logs each individual item. The first loop should log the category of the item, while the nested loop should log each individual item in that category.//
