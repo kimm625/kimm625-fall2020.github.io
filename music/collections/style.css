@@ -1,5 +1,5 @@
 html {
-    height: 130%;
+    height: 142%;
 }
 
 body {
@@ -57,7 +57,7 @@ h2 {
     position: absolute;
     left: 0;
     bottom: 0;
-    top: 110%;
+    top: 130%;
     width: 100%;
 	padding: 15px 0;
 }
@@ -73,4 +73,23 @@ h2 {
 p {
     font-size: 14;
     margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
 }
