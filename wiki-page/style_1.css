@@ -1,0 +1,73 @@
+html {
+    background-color: rgb(180, 173, 161);
+    margin: 0px;
+    margin-right: 40px;
+}
+
+h2, h3, h4 {
+    font-size-adjust: inherit;
+    margin-left: 70px;
+}
+
+h1{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-weight: bold;
+    font-size: 180px;
+    margin-bottom: 220px;
+    color: #2f364b;
+    margin-top: 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Geo', sans-serif;
+    font-weight: normal;
+    font-size: 56px;
+    color: rgb(37, 58, 48);
+    margin-top: 70px;
+}
+
+h2:hover {
+    color: rgb(170, 253, 2);
+}
+
+h3 {
+    font-family: 'Geo', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 70px;
+    color: 	#3f0b0b;
+    text-decoration: underline;
+}
+
+article, .footer {
+    float: right;
+}
+
+p, li {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-left: 70px;
+}
+
+p {
+    width: 560px;
+    line-height: 2;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    align-items: right;
+    margin-right: 0;
+    width: 70%;
+}
+
+.references {
+    column-count: 1;
+    column-gap: normal;
+    line-height: 2.2;
+}
