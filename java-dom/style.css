@@ -1,0 +1,14 @@
+#container {
+    width: 700px;
+    height: 700px;
+    float: right;
+    border: black solid 2px;
+}
+
+.bubble {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    background: black;
+    cursor: pointer;
+  }
