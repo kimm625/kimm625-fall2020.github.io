@@ -11,6 +11,9 @@ button.addEventListener('click', function(event) {
 });
 
 
+
+출처: https://androphil.tistory.com/253?category=465056 [소림사의 홍반장!]
+
 let bubbles = document.querySelectorAll('.bubble');
 
 // place our bubbles randomly
@@ -25,9 +28,3 @@ container.addEventListener('click', function (event) {
   }
 });
 
-document.querySelectorAll('bubble')
-var count=0;
-function bubble_onclick (){
-  count++;
-  alert("You erased"+count)
-};
