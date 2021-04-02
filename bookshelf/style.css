@@ -1,0 +1,133 @@
+body {
+  font-family: 'Red Hat Text', sans-serif;
+  background: white;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+ 
+.hidden {
+  display: none !important;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+.subtitle {
+    font-size: 10px;
+    margin-top: 40px;
+}
+
+.shelf {
+  padding: 0;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  padding: 5;
+}
+
+.shelf .book-spine {
+  color: black;
+
+  height: fit-content;
+
+  padding: 10px 0px;
+  margin-bottom: 2px;
+  margin-right: 2px;
+
+
+  line-height: 30px;
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+.shelf .book-spine.active {
+  background: black;
+  color: white;
+}
+
+.shelf .book-spine:hover {
+    background: black;
+    color: white;
+}
+
+.book-detail {
+  display: flex;
+}
+
+.book-detail .figure {
+  width: 200px;
+  flex: none;
+  margin-right: 30px;
+}
+
+.book-detail .cover-image {
+  width: 200%;
+  border: 5px solid black;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.book-detail .info {
+  max-width: 600px;
+  margin-left: 230px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.book-detail .title {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 0;
+  text-align: left;
+}
+
+.book-detail .description {
+  margin-top: 0.5em;
+  font-size: 20px;
+  letter-spacing: 0em;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.footnote {
+    font-size: 8px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    background-color: white;
+}
+.more {
+    font-size: 10px;
+}
+a:link { color: black; text-decoration: underline;}
+a:visited { color: gray; text-decoration: underline;}
+a:hover { color: gray; text-decoration: underline;}
+
+@media (max-width: 600px) {
+  .book-detail {
+    flex-direction: column;
+  }
+  .book-detail .figure {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 2em;
+  }
+  .book-detail .cover-image {
+    width: 100%;
+    border: 5px solid black;
+    padding: 3px;
+    box-sizing: border-box;
+  }
+  .book-detail .info {
+    max-width: 400px;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+}
