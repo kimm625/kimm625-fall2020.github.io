@@ -1,11 +1,61 @@
+let container = document.querySelector('#container')
+let button = document.querySelector('.make')
+let count = document.querySelector('#count')
+let swatch1 = document.querySelector('#color1')
+let swatch2 = document.querySelector('#color2')
+let swatch3 = document.querySelector('#color3')
+let remove = document.querySelector('.remove')
 
-// If you use a <button> tag you can query the button directly. Otherwise, you can use a CSS class on the element you click, and querySelector that class.
-var button = document.querySelector('make');
-var container = document.querySelector('#container');
-button.addEventListener('click', function(event) {
-  console.log(event, event.target);
-  var newItem = document.createElement('div');
-  newItem.classList.add('new-content');
-  newItem.innerHTML = '.stars';
-  container.appendChild(newItem);
+button.addEventListener('click',function(){
+   let stars = document.createElement('div');
+   stars.classList.add('stars');
+   stars.style.left=(100*Math.random()) + '%';
+   stars.style.top=(100*Math.random()) + '%';
+   stars.innerHTML='<div></div>';
+   container.appendChild(stars);
+
+   let images = container.querySelectorAll('.stars');
+   let amount = images.length;
+   count.innerHTML = amount;
+   if (counter.length > 0) {
+    counterText += 'stars added';
+  }
+});
+
+container.addEventListener ('click',function(event){
+    if(event.target.classList == 'stars'){
+        event.target.remove();
+        let stars= container.querySelectorAll('.stars');
+        let amount = stars.length;
+        count.innerHTML = amount;
+  
+}});
+
+swatch1.addEventListener ('click',function(){
+    let color1 = document.querySelector('#color1').style.backgroundColor;
+    let stars = document.querySelectorAll('.stars');
+    stars.forEach(function(stars){
+        stars.style.backgroundColor = 'greenyellow';
+    })
+});
+
+swatch2.addEventListener ('click',function(){
+    let color2 = document.querySelector('#color2').style.backgroundColor;
+    let stars = document.querySelectorAll('.stars');
+    stars.forEach(function(stars){
+      stars.style.backgroundColor = '#00FFFF';
+    })
+});
+
+swatch3.addEventListener ('click',function(){
+    let color3 = document.querySelector('#color3').style.backgroundColor;
+    let stars = document.querySelectorAll('.stars');
+    stars.forEach(function(stars){
+      stars.style.backgroundColor = '#FF5AD9';
+    })
+});
+
+remove.addEventListener ('click',function(){
+  var stars = document.querySelector("stars");	//제거하고자 하는 엘리먼트
+  stars.parentNode.removeChild(stars);
 });
