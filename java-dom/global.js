@@ -17,7 +17,7 @@ button.addEventListener('click',function(){
    let images = container.querySelectorAll('.stars');
    let amount = images.length;
    count.innerHTML = amount;
-   if (counter.length > 0) {
+   if (count.length > 0) {
     counterText += 'stars added';
   }
 });
@@ -57,5 +57,5 @@ swatch3.addEventListener ('click',function(){
 
 remove.addEventListener ('click',function(){
   var stars = document.querySelector("stars");	//제거하고자 하는 엘리먼트
-  stars.parentNode.removeChild(stars);
+  stars.remove(stars);
 });
