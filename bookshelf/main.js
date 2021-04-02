@@ -58,6 +58,7 @@ function showBooks() {
 }
 
 
+
 // create the book-spines on the shelf
 function showBooks() {
   console.log("showBooks()");
@@ -74,7 +75,9 @@ function showBooks() {
     // when the user clicks this book spine, call showBook and send the book data and this spine element
     div.addEventListener("click", () => {
       showBook(book, div);
+      document.documentElement.scrollTop = document.body.scrollHeight;
     });
+
     // put the newly created book spine on the shelf
     shelf.appendChild(div);
   });
@@ -108,6 +111,3 @@ function showBook(book, div) {
   // but its not hurting to do it more than once
   bookDetail.classList.remove("hidden");
 }
-
-
-
