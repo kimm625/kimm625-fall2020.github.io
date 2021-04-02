@@ -102,6 +102,13 @@ h1 {
     margin-bottom: 40px;
     background-color: white;
 }
+
+.rotate {
+    display: inline-block;
+    -webkit-animation: rotate 7s linear infinite;
+    animation: rotate 7s linear infinite;
+}
+
 .more {
     font-size: 10px;
 }
