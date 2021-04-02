@@ -1,14 +1,40 @@
-#container {
-    width: 700px;
-    height: 700px;
-    float: right;
-    border: black solid 2px;
+html {
+    background-color: black;
 }
 
-.bubble {
+.count {
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.stars {
     position: absolute;
-    width: 5rem;
-    height: 5rem;
-    background: black;
+    width: 15px;
+    height: 15px;
+    background: white;
     cursor: pointer;
+    border-radius: 50px;
+    display: hidden;
   }
+.swatch {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#color1 {
+    background-color: greenyellow;
+}
+
+#color2 {
+    background-color: #00FFFF;
+}
+
+#color3 {
+    background-color: 	#FF5AD9;
+}
