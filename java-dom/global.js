@@ -56,6 +56,8 @@ swatch3.addEventListener ('click',function(){
 });
 
 remove.addEventListener ('click',function(){
-  var stars = document.querySelector("stars");	//제거하고자 하는 엘리먼트
-  stars.remove(stars);
+  var stars = document.querySelectorAll(".stars");	//제거하고자 하는 엘리먼트
+  stars.forEach(function(star){
+      star.remove();
+    })
 });

@@ -1,0 +1,56 @@
+html {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient( to bottom, white, lightgray, darkgray, black );
+}
+
+
+h1 {
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 160px;
+    margin-top: 80px;
+}
+
+.center, .landing {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: block;
+}
+
+.center {
+    width: 60%;
+}
+
+.landing {
+    width: 70%;
+}
+
+.grid {
+    display: table;
+    width: 45%;
+    float: left;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.left {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.more {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
+.last {
+    margin-bottom: 80px;
+}
