@@ -12,8 +12,16 @@ h1 {
     letter-spacing: 0.02em;
     text-align: center;
     margin-bottom: 160px;
-    margin-top: 80px;
+    margin-top: 60px;
 }
+
+ h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    margin-bottom: 80px;
+    letter-spacing: 0.02em;
+    text-align: center;
+ }
 
 .center, .landing {
     width: 60%;
