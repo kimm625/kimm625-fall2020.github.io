@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Michroma', sans-serif;
+    font-size: 160px;
+    text-shadow: 16px 13px 12px #5a5a5a;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.top {
+    font-family: 'Michroma', sans-serif;
+    font-size: 65px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    position: fixed;
+    top: 80%;
+    left: 83%;
+    z-index: 2;
+}
+
+.info, .category1, .footnote {
+    font-family: Arial, sans-serif;
+}
+
+.info {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 11px;
+    margin-left: 11px;
+}
+
+.background {
+    margin: 0;
+    position: inherit;
+    background-color: black;
+    height: fit-content;
+    width: 100%;
+    position: absolute;
+    display: block;
+    z-index: 1;
+}
+
+.image {
+    margin-top: 130px;
+    height: 700px;
+    position: relative;
+    z-index: 2;
+}
+
+.category1 {
+    position: absolute;
+    opacity: 0;
+    display: block;
+    top: 50%;
+	left: 50%;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    transform: translate( -50%, -50% );
+    z-index: 2;
+}
+
+.image:hover .category1{
+    opacity: 1;
+}
+.image:hover .photo {
+    opacity: 0.4;
+}
+
+img {
+    width: 100%;
+    height: 700px;
+    z-index: 2;
+}
+
+.last {
+    margin-bottom: 130px;
+}
+
+.footnote {
+    font-size: 13px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+
