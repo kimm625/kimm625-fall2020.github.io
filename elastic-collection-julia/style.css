@@ -6,20 +6,20 @@ h1 {
     font-family: 'Michroma', sans-serif;
     font-size: 160px;
     text-shadow: 16px 13px 12px #5a5a5a;
-    margin-right: 20px;
+    margin-left: 20px;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.top {
+.top{
     font-family: 'Michroma', sans-serif;
     font-size: 65px;
     color: transparent;
     -webkit-text-stroke: 1px white;
     position: fixed;
+    z-index: 2;
     top: 80%;
     left: 83%;
-    z-index: 2;
 }
 
 .info, .category1, .footnote {
