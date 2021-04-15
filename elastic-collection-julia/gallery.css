@@ -207,3 +207,39 @@ p {
     font-size: 13px;
 
 }
+
+@media ( max-width: 768px ) {
+    .container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .shadow-image {
+        width: 160px;
+    }
+
+    .zoom-image.active{
+        width: 250px;
+        height: auto;
+        top: 45%
+    }
+
+    .shadow-caption.active {
+        left: 30%;
+        top: 60%;
+    }
+
+    .shadow-photographer.active {
+        left: 30%;
+        top: 63%;
+    }
+
+    .shadow-date.active {
+        left: 30%;
+        top: 67%;
+    }
+}

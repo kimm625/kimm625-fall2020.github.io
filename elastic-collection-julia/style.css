@@ -90,3 +90,28 @@ img {
     color: white;
 }
 
+@media ( max-width: 768px ) {
+    h1 {
+        font-size: 55px;
+    }
+
+    img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .top {
+        font-size: 35px;
+        top: 90%;
+        left: 76%;
+    }
+
+    .category1 {
+        font-size: 20px;
+    }
+
+    .image {
+        margin-top: 60px;
+        height: fit-content;
+    }
+  }
