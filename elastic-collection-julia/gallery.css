@@ -49,6 +49,7 @@ span:hover {
     z-index: 2;
 }
 
+
 .footnote {
     font-family: 'Michroma', sans-serif;
     font-style: normal;
@@ -58,22 +59,19 @@ span:hover {
     text-align: center;
 }
 
-.footnote:hover {
-    text-shadow: 3px 2px 2px #5a5a5a;
-}
 
 .container {        
     display: grid;
     width: fit-content;
     margin-top: 60px;
-    margin-left: 60px;
+    margin-left: 40px;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
+    grid-gap: 150px;
 }
 
 .shadow-container {
-    width: 400px;
-    height: 500px;
+    width: fit-content;
+    height: fit-content;
 }
 
 .shadow-image {
@@ -101,9 +99,9 @@ a:active {
 .title {
     width: 900px;
     font-family: 'Michroma', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     color: white;
-    text-shadow: 3px 3px 4px #5a5a5a;
+    text-shadow: 3px 3px 3px #5a5a5a;
     -webkit-text-stroke: 1px white;
 
     display: block;
@@ -120,7 +118,7 @@ a:active {
 }
 
 
-.shadow-container:hover .shadow-image {
+.shadow-image:hover {
     opacity: 0.6;
     filter: blur(1.2px);
 }
