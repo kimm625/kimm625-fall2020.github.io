@@ -188,5 +188,10 @@ function showShadows() {
       }
     });
 
+    var reset = document.querySelector(".reset");
+    reset.addEventListener("click", function() {
+      shadowContainer.style.visibility = 'visible';
+    });
+
     }
     )}
