@@ -14,10 +14,7 @@ html {
 #container img {
     position: absolute;
     width: 5%;
-    -webkit-animation: rotateY 1s infinite linear;
-    animation: rotateY 1s infinite linear;
 }
-    
 
 
 #vb {
