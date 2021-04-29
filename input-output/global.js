@@ -1,3 +1,3 @@
 $(window).load(function(){
-    $(".loading").fadeOut();
+    $(".loader").fadeOut();
 });
