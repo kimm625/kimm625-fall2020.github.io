@@ -1,7 +1,36 @@
 html {
-    background-image: url(sky.jpeg);
+    background-image: url('P20170118_183718000_D41AF11F-52FF-4172-AFBA-754CC749ADBE.JPG');
     background-size: cover;
 }
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.loader{
+    width:100%;
+    height:100%;
+    position:fixed;
+    left:0px;
+    top:0px;
+    background-image: url('P20170118_183718000_D41AF11F-52FF-4172-AFBA-754CC749ADBE.JPG');
+    background-size: cover;
+    z-index:1000; /* 이 값으로 레이어의 위치를 조정합니다. */
+}
+
+h1 {
+    font-size: 160px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.2;
+    position: absolute;
+    display: block;
+    text-align: center;
+    top: 10%;
+    left: 50%;
+    transform: translate( -50%, -30% );
+}
+
 #container {
     position:absolute;
     left: 0%;
@@ -13,15 +42,18 @@ html {
 }
 #container img {
     position: absolute;
-    width: 5%;
+
 }
 
-
-#vb {
+.capture {
+    font-size: 34px;
+    color: white;
     position: absolute;
-    border-left: black solid 1px;
-    left: 50%;
-    top: 10%;
-    height: 80%;
-    z-index: 1000;
+    top: 89%;
+    left: 85%;
+}
+
+.capture:hover {
+    font-style: italic;
+    font-size: 39px;
 }

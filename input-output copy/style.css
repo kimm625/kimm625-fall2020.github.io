@@ -1,0 +1,34 @@
+html {
+    background-color: black;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+#container {
+    position:absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+#container img {
+    position: absolute;
+
+}
+
+.capture {
+    font-size: 34px;
+    color: white;
+    position: absolute;
+    top: 89%;
+    left: 85%;
+}
+
+.capture:hover {
+    font-style: italic;
+    font-size: 39px;
+}
