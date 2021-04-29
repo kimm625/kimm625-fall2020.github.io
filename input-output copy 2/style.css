@@ -1,0 +1,58 @@
+html {
+    background-image: url('P20160729_011312000_712E5BF1-0732-4FC3-A4D0-BF6E9CB494F1.JPG');
+    background-size: cover;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.loader{
+    width:100%;
+    height:100%;
+    position:fixed;
+    left:0px;
+    top:0px;
+
+    z-index:-1000; /* 이 값으로 레이어의 위치를 조정합니다. */
+}
+
+h1 {
+    font-size: 160px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.2;
+    position: absolute;
+    display: block;
+    text-align: center;
+    top: 10%;
+    left: 50%;
+    transform: translate( -50%, -30% );
+}
+
+#container {
+    position:absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+#container img {
+    position: absolute;
+
+}
+
+.capture {
+    font-size: 34px;
+    color: white;
+    position: absolute;
+    top: 89%;
+    left: 85%;
+}
+
+.capture:hover {
+    font-style: italic;
+    font-size: 39px;
+}

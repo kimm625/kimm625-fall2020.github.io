@@ -1,6 +1,4 @@
-$(window).load(function(){
-    $(".loader").fadeOut();
-});
+
 //
 
 r3d = {
