@@ -142,7 +142,7 @@ function changeBg(number) {
 function checkFormat(number) {
     switch (number) {
         case 1:
-            return "png";
+            return "jpg";
         case 0:
         case 2:
             return "jpg";
