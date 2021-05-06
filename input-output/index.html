@@ -1,35 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Input Output</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+        <title>Input Output</title>
+    </head>
+    <body>
 
-    <div class="body">
-    <div id="container">
-        <div id="vb"></div>
-    </div>
-    
-    <div id="particles" style="visibility:hidden">
-         
-         <img src="img/daisy-smaller.png" style="width: 0.3%;">
-        <img src="img/circle-50.gif" style="width: 0.5%;">
-        <img src="img/pearl-small.png" style="width: 1.0%;">
-       
-    </div>
+        <div class="body">
+            <div id="container">
+                <div id="vb"></div>
+            </div>
 
-    <div class="capture">Capture!</div>
+            <div id="particles" style="visibility: hidden"></div>
 
-</div>
+            <div class="about">Click and drag around the screen</a></div>
+            <div id="remove" class="btn">reset</div>
+            <div class="back"><a href="home.html">Home</a> </div>
 
-    <script type="text/javascript"></script>
-    
-    <script src="main.js"></script>
-</body>
+            <div class="select">
+                <img
+                    src="img/goat.png"
+                    onclick="change('img/goat.png')"
+                />
+
+                <img
+                    src="img/goose.png"
+                    onclick="change('img/goose.png')"
+                />
+
+                <img
+                src="img/cake.png"
+                onclick="change('img/cake.png')"
+                />
+
+                <img
+                    src="img/daisy-smaller.png"
+                    onclick="change('img/daisy-smaller.png')"
+                />
+                <img
+                    src="img/pearl-small.png"
+                    onclick="change('img/pearl-small.png')"
+                />
+
+                <img
+                    src="img/circle-50.gif"
+                    onclick="change('img/circle-50.gif')"
+                />
+            </div>
+        </div>
+
+        <div class="arrow"><button onclick="prev()" class="left" ><</button></div>
+        <div class="arrow"><button onclick="next()" class="right">></button></div>
+
+        <script type="text/javascript"></script>
+        <script src="main.js"></script>
+    </body>
 </html>
